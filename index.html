@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>AKB LEX – Indian Arbitration Law Firm</title>
+  <script>
+    (function() {
+      try {
+        var t = localStorage.getItem('akblex_disc');
+        if (t && (Date.now() - Number(t) < 86400000)) {
+          document.documentElement.classList.add('disclaimer-accepted');
+        }
+      } catch (e) {}
+    })();
+  </script>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=DM+Sans:wght@300;400;500;600&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <div id="disclaimer-overlay" role="dialog" aria-modal="true" aria-labelledby="disc-title">
+    <div class="disclaimer-box">
+      <h2 id="disc-title">AKB LEX</h2>
+      <p class="disc-sub">DISCLAIMER & CLARIFICATION</p>
+      <div class="disc-content">
+        <p>Under the Bar Council of India Rules Part VI, Chapter II, Rule 36, legal practitioners are prohibited from
+          soliciting work or advertising in any form.</p>
+        <p>This website is provided for informational purposes only. The content herein does not constitute legal advice
+          and should not be relied upon as such. No information on this site is intended to create, nor does its receipt
+          constitute, an attorney-client relationship. The firm does not seek any professional engagement through this
+          website.</p>
+        <p>By accessing this website, the user acknowledges that they have voluntarily sought information about the firm
+          and that no solicitation has occurred.</p>
+      </div>
+      <p class="disc-note">User must click "I Agree" to proceed.</p>
+      <button class="disc-btn">I Agree</button>
+    </div>
+  </div>
+
+  <nav>
+    <a href="index.html" class="nav-logo" aria-label="AKB LEX Home" style="display:flex; align-items:center;"><img
+        src="assets/logo.png" alt="AKB LEX Logo"
+        style="height: 105px; max-height: 90%; width: auto; object-fit: contain;"></a>
+    <div class="nav-links">
+      <a href="index.html" class="nav-link active">Home</a>
+      <a href="services.html" class="nav-link">Practice Areas</a>
+      <a href="people.html" class="nav-link">People</a>
+      <a href="publications.html" class="nav-link">Insights</a>
+      <a href="careers.html" class="nav-link">Careers</a>
+      <a href="contact.html" class="nav-cta nav-link">Contact</a>
+    </div>
+    <div class="hamburger" id="hamburger" onclick="toggleMenu()">
+      <span></span><span></span><span></span>
+    </div>
+  </nav>
+
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="index.html">Home</a>
+    <a href="services.html">Practice Areas</a>
+    <a href="people.html">People</a>
+    <a href="publications.html">Insights</a>
+    <a href="careers.html">Careers</a>
+    <a href="contact.html">Contact</a>
+  </div>
+
+  <div class="ticker-wrap">
+    <div class="ticker-track">
+      <div class="ticker-group">
+        <div class="ticker-item"><span class="ticker-gold">Proceedings</span> before Arbitrators</div>
+        <div class="ticker-item"><span class="ticker-gold">Stay orders</span> and Interim Reliefs</div>
+        <div class="ticker-item"><span class="ticker-gold">Appointment</span> of Arbitrators</div>
+        <div class="ticker-item"><span class="ticker-gold">Setting aside</span> of awards and Appeals</div>
+        <div class="ticker-item"><span class="ticker-gold">Construction</span> Arbitration</div>
+        <div class="ticker-item"><span class="ticker-gold">Infrastructure</span> Disputes</div>
+        <div class="ticker-item"><span class="ticker-gold">Property</span> and land disputes</div>
+        <div class="ticker-item"><span class="ticker-gold">International</span> Commercial Arbitration in India</div>
+        <div class="ticker-item"><span class="ticker-gold">Enforcement</span> of Foreign Awards under the 1996 Act</div>
+        <div class="ticker-item"><span class="ticker-gold">Recovery Suits</span> before Commercial Courts</div>
+        <div class="ticker-item"><span class="ticker-gold">Domain Name</span> Disputes</div>
+      </div>
+      <div class="ticker-group" aria-hidden="true">
+        <div class="ticker-item"><span class="ticker-gold">Proceedings</span> before Arbitrators</div>
+        <div class="ticker-item"><span class="ticker-gold">Stay orders</span> and Interim Reliefs</div>
+        <div class="ticker-item"><span class="ticker-gold">Appointment</span> of Arbitrators</div>
+        <div class="ticker-item"><span class="ticker-gold">Setting aside</span> of awards and Appeals</div>
+        <div class="ticker-item"><span class="ticker-gold">Construction</span> Arbitration</div>
+        <div class="ticker-item"><span class="ticker-gold">Infrastructure</span> Disputes</div>
+        <div class="ticker-item"><span class="ticker-gold">Property</span> and land disputes</div>
+        <div class="ticker-item"><span class="ticker-gold">International</span> Commercial Arbitration in India</div>
+        <div class="ticker-item"><span class="ticker-gold">Enforcement</span> of Foreign Awards under the 1996 Act</div>
+        <div class="ticker-item"><span class="ticker-gold">Recovery Suits</span> before Commercial Courts</div>
+        <div class="ticker-item"><span class="ticker-gold">Domain Name</span> Disputes</div>
+      </div>
+    </div>
+  </div>
+
+  <section class="hero">
+    <div class="hero-accent"></div>
+    <div class="hero-bg-pattern"></div>
+    <div class="hero-content">
+      <div class="hero-eyebrow">
+        <div class="hero-eyebrow-line"></div>
+        Established in 1987 · Chandigarh
+      </div>
+      <h1 id="heroTitle" class="word-reveal">
+        <span class="word">Firm</span> <em class="word">History</em>
+      </h1>
+      <p class="hero-desc">AKB LEX is a Chandigarh-based dispute resolution practice with decades of focused experience in commercial arbitration, infrastructure and construction contract disputes, high-value land and property matters, and proceedings before courts and arbitral tribunals.</p>
+      <div class="hero-ctas">
+        <a href="contact.html" class="btn-primary">Consult Us Today →</a>
+        <a href="services.html" class="btn-secondary">Our Practice Areas</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="about">
+    <div>
+      <h2 class="section-title fade-up">Dispute Resolution<br><em>Practice</em></h2>
+    </div>
+    <div class="about-grid">
+      <div class="about-text fade-left">
+        <p>The firm advises and represents clients in domestic arbitrations under the Arbitration and Conciliation Act,
+          1996, EPC and works contract disputes involving public sector authorities, and complex commercial matters
+          across multiple jurisdictions. Its practice extends to proceedings before the Supreme Court of India, various
+          High Courts, and civil courts across North India, including Punjab and Haryana, Delhi, Himachal Pradesh,
+          Jammu and Kashmir, Rajasthan, Uttarakhand, and Uttar Pradesh.
+        </p>
+        <div class="about-values">
+          <span class="value-tag">Strategy</span>
+          <span class="value-tag">Preparation</span>
+          <span class="value-tag">Practical Solutions</span>
+        </div>
+        <div style="margin-top: 30px;">
+        </div>
+      </div>
+      <div class="about-imgs fade-right">
+        <div class="about-img-placeholder">
+          <span>⚖</span>
+          <p>Arbitration House, Chandigarh</p>
+        </div>
+        <div class="about-img-secondary">
+          <div class="about-img-secondary-num">1987</div>
+          <div class="about-img-secondary-text">Year of<br>Establishment</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="marquee-section">
+    <p class="marquee-label">Clients & Forums We Serve</p>
+    <div class="marquee-window">
+      <div class="marquee-track">
+        <div class="marquee-group">
+          <div class="marquee-item">Institutions <span class="marquee-dot">◆</span></div>
+          <div class="marquee-item">MNCs <span class="marquee-dot">◆</span></div>
+          <div class="marquee-item">Entrepreneurs <span class="marquee-dot">◆</span></div>
+          <div class="marquee-item">Individuals <span class="marquee-dot">◆</span></div>
+          <div class="marquee-item">Infrastructure Cos <span class="marquee-dot">◆</span></div>
+          <div class="marquee-item">Real Estate <span class="marquee-dot">◆</span></div>
+          <div class="marquee-item">Government Contractors <span class="marquee-dot">◆</span></div>
+          <div class="marquee-item">Corporations <span class="marquee-dot">◆</span></div>
+        </div>
+        <div class="marquee-group" aria-hidden="true">
+          <div class="marquee-item">Institutions <span class="marquee-dot">◆</span></div>
+          <div class="marquee-item">MNCs <span class="marquee-dot">◆</span></div>
+          <div class="marquee-item">Entrepreneurs <span class="marquee-dot">◆</span></div>
+          <div class="marquee-item">Individuals <span class="marquee-dot">◆</span></div>
+          <div class="marquee-item">Infrastructure Cos <span class="marquee-dot">◆</span></div>
+          <div class="marquee-item">Real Estate <span class="marquee-dot">◆</span></div>
+          <div class="marquee-item">Government Contractors <span class="marquee-dot">◆</span></div>
+          <div class="marquee-item">Corporations <span class="marquee-dot">◆</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section class="firm-structure" style="padding: 120px 5%; max-width: 1300px; margin: 0 auto;">
+    <div style="text-align: center; margin-bottom: 60px;">
+      <span class="section-label fade-up">Firm Structure</span>
+      <h2 class="section-title fade-up">Our <em>Partnership</em></h2>
+      <p style="color: var(--gray); font-size: 19.5px; line-height: 1.8; max-width: 900px; margin: 30px auto 0; text-align: justify;"
+        class="fade-up">
+        AKB LEX operates as a partnership of advocates, with a principal-led model.
+      </p>
+    </div>
+
+    <div class="people-card-grid fade-up" style="margin-top: 60px;">
+      <div class="people-card">
+        <div class="people-photo-slot">
+          <a href="people.html#ashwinie-bansal" style="display: block; width: 100%; height: 100%;">
+            <img src="assets/founder-photo.png" alt="Dr. Ashwinie Kumar Bansal" style="object-position: center 10%; width: 100%; height: 100%; object-fit: cover;">
+          </a>
+        </div>
+        <div class="people-card-body" style="padding: 25px 20px;">
+          <div class="team-card-name" style="margin-bottom: 5px;">
+            <a href="people.html#ashwinie-bansal" class="team-card-link">Ashwinie Kumar Bansal</a>
+          </div>
+          <div class="team-card-role" style="margin-bottom: 0; font-size: 14px; font-weight: 600;">Founder & Managing Partner</div>
+        </div>
+      </div>
+
+      <div class="people-card">
+        <div class="people-photo-slot">
+          <a href="people.html#rashmie-bansal" style="display: block; width: 100%; height: 100%;">
+            <img src="assets/rashmie-bansal-new.jpg" alt="Rashmie Bansal" style="object-position: center 20%; width: 100%; height: 100%; object-fit: cover;">
+          </a>
+        </div>
+        <div class="people-card-body" style="padding: 25px 20px;">
+          <div class="team-card-name" style="margin-bottom: 5px;">
+            <a href="people.html#rashmie-bansal" class="team-card-link">Rashmie Bansal</a>
+          </div>
+          <div class="team-card-role" style="margin-bottom: 0; font-size: 14px; font-weight: 600;">Founder & Managing Partner</div>
+        </div>
+      </div>
+
+      <div class="people-card">
+        <div class="people-photo-slot">
+          <a href="people.html#kanika-bansal" style="display: block; width: 100%; height: 100%;">
+            <img src="assets/kanika-bansal.jpg" alt="Kanika Bansal" style="object-position: center 20%; width: 100%; height: 100%; object-fit: cover;">
+          </a>
+        </div>
+        <div class="people-card-body" style="padding: 25px 20px;">
+          <div class="team-card-name" style="margin-bottom: 5px;">
+            <a href="people.html#kanika-bansal" class="team-card-link">Kanika Bansal</a>
+          </div>
+          <div class="team-card-role" style="margin-bottom: 0; font-size: 14px; font-weight: 600;">Partner</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="why dark-bg-trigger" style="padding: 120px 6%; background: var(--dark);">
+    <div style="max-width: 1200px; margin: 0 auto;">
+      <div style="text-align: center; margin-bottom: 70px;">
+        <span class="section-label" style="color: var(--gold); letter-spacing: 0.18em;">Our Methodology</span>
+        <h2 class="section-title" style="color: #fff; margin-top: 10px; font-family: var(--font-display); font-size: clamp(36px, 4.5vw, 54px);">Integrity of the <em>Judicial Process</em></h2>
+      </div>
+
+      <div class="methodology-grid">
+        <!-- Card 1: Procedural Management -->
+        <div style="border: 1px solid rgba(255, 255, 255, 0.08); background: rgba(255, 255, 255, 0.02); padding: clamp(25px, 5vw, 45px); transition: all 0.3s ease; position: relative;">
+          <div style="font-family: var(--font-display); font-size: 32px; color: var(--gold); font-weight: 700; margin-bottom: 15px; opacity: 0.8;">01</div>
+          <h3 style="font-family: var(--font-display); font-size: 24px; color: #fff; font-weight: 600; margin-bottom: 18px; letter-spacing: 0.02em;">Procedural Management</h3>
+          <p style="font-family: var(--font-body); font-size: 17px; line-height: 1.85; color: rgba(255, 255, 255, 0.65); text-align: left; font-weight: 300;">
+            Subsequent procedural management includes the drafting and filing of pleadings, interim applications, and evidentiary materials, all within the limitation periods prescribed under the Limitation Act, 1963, and the applicable rules of court.
+          </p>
+        </div>
+
+        <!-- Card 2: Arbitration Proceedings -->
+        <div style="border: 1px solid rgba(255, 255, 255, 0.08); background: rgba(255, 255, 255, 0.02); padding: clamp(25px, 5vw, 45px); transition: all 0.3s ease; position: relative;">
+          <div style="font-family: var(--font-display); font-size: 32px; color: var(--gold); font-weight: 700; margin-bottom: 15px; opacity: 0.8;">02</div>
+          <h3 style="font-family: var(--font-display); font-size: 24px; color: #fff; font-weight: 600; margin-bottom: 18px; letter-spacing: 0.02em;">Arbitration Proceedings</h3>
+          <p style="font-family: var(--font-body); font-size: 17px; line-height: 1.85; color: rgba(255, 255, 255, 0.65); text-align: left; font-weight: 300;">
+            Dispute resolution is undertaken across original and appellate jurisdictions, as well as through arbitral proceedings governed by the Arbitration and Conciliation Act, 1996—encompassing the appointment of arbitrators under Section 11, interim measures under Sections 9 and 17, challenges to awards under Section 34, appeals under Section 37, and enforcement under Section 36.
+          </p>
+        </div>
+
+        <!-- Card 3: Compliance Framework -->
+        <div style="border: 1px solid rgba(255, 255, 255, 0.08); background: rgba(255, 255, 255, 0.02); padding: clamp(25px, 5vw, 45px); transition: all 0.3s ease; position: relative;">
+          <div style="font-family: var(--font-display); font-size: 32px; color: var(--gold); font-weight: 700; margin-bottom: 15px; opacity: 0.8;">03</div>
+          <h3 style="font-family: var(--font-display); font-size: 24px; color: #fff; font-weight: 600; margin-bottom: 18px; letter-spacing: 0.02em;">Compliance Framework</h3>
+          <p style="font-family: var(--font-body); font-size: 17px; line-height: 1.85; color: rgba(255, 255, 255, 0.65); text-align: left; font-weight: 300;">
+            Every step, from the initial statement of claim to post-award proceedings, is executed in accordance with the Arbitration and Conciliation Act, 1996, the Code of Civil Procedure, 1908, the Limitation Act, 1963, and applicable rules of court, adhering to procedural law, binding judicial precedents, and the professional conduct mandated by the regulatory framework.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-top">
+      <div class="footer-brand">
+        <h3>AKB LEX</h3>
+        <div class="footer-brand-sub">Chandigarh</div>
+        <p>A dispute resolution practice based in Chandigarh with concentrated experience in commercial arbitration,
+          infrastructure and construction contract disputes, and proceedings before courts and arbitral tribunals.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Firm</h4>
+        <a href="people.html">People</a>
+        <a href="careers.html">Careers</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div class="footer-col">
+        <h4>Practice Areas</h4>
+        <a href="services.html">Domestic Arbitration</a>
+        <a href="services.html">Infrastructure Disputes</a>
+        <a href="services.html">Construction Disputes</a>
+        <a href="services.html">Property Disputes</a>
+        <a href="services.html">Domain Name Disputes</a>
+        <a href="services.html">Section 34 & 37 Proceedings</a>
+      </div>
+      <div class="footer-col">
+        <h4>Insights</h4>
+        <a href="publications.html">Publications</a>
+        <a href="publications.html">Books by Dr. A.K. Bansal</a>
+        <a href="publications.html">Articles in Foreign Journals</a>
+        <a href="publications.html">Arbitral Appointments</a>
+      </div>
+    </div>
+    <hr class="footer-divider">
+    <div class="footer-bottom">
+      <p>© 2026 AKB LEX. All rights reserved.</p>
+      <div style="display:flex;gap:20px">
+        <a href="mailto:akblex@gmail.com">akblex@gmail.com</a>
+        <a href="tel:+919915004500">+91 99150 04500</a>
+      </div>
+    </div>
+    <div class="footer-disclaimer">
+      <p>⚠ <strong style="color:rgba(255,255,255,.35)">Disclaimer:</strong> Under the Bar Council of India Rules Part
+        VI, Chapter II, Rule 36, legal practitioners are prohibited from soliciting work or advertising in any form.
+        This website is for informational purposes only and does not constitute legal advice or solicitation. Visiting
+        this website does not create an attorney-client relationship.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>
