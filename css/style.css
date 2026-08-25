@@ -252,7 +252,16 @@ nav {
 .nav-logo {
   display: flex;
   flex-direction: column;
+  align-items: center;
   line-height: 1
+}
+
+.nav-logo img {
+  height: 105px;
+  max-height: 90%;
+  width: auto;
+  object-fit: contain;
+  border-radius: 50%;
 }
 
 .nav-logo-name {
@@ -1555,6 +1564,12 @@ footer {
     padding: 0 5%
   }
 
+  .nav-logo img {
+    height: 80px;
+    max-height: 85%;
+    max-width: 50%;
+  }
+
   .hero {
     padding: 140px 5% 70px
   }
@@ -1752,6 +1767,12 @@ section {
 
   .mobile-menu {
     top: 80px;
+  }
+
+  .nav-logo img {
+    height: 55px;
+    max-height: 80%;
+    max-width: 45%;
   }
 
   .nav-logo-name {
