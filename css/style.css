@@ -81,7 +81,7 @@ body.dark-theme .btn-secondary {
 body.dark-theme .section-title {
   color: var(--white);
 }
-
+*/
 body.dark-theme .about,
 body.dark-theme .services,
 body.dark-theme .approach,
@@ -1561,7 +1561,9 @@ footer {
   }
 
   nav {
-    padding: 0 5%
+    padding: 0 5%;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
   }
 
   .nav-logo img {
@@ -1763,6 +1765,8 @@ section {
   nav {
     height: 80px;
     padding: 0 5%;
+    backdrop-filter: blur(0px);
+    -webkit-backdrop-filter: blur(0px);
   }
 
   .mobile-menu {
@@ -1770,8 +1774,8 @@ section {
   }
 
   .nav-logo img {
-    height: 150px;
-    max-height: 80%;
+    height: 55px;
+    max-height: 85%;
     max-width: 45%;
   }
 
